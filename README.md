@@ -3,7 +3,7 @@
 MP3Flash16Pv2 is a library created for the MP3-FLASH-16P module.  This v2 is a fork of /u/Critters original library
   was created to remove the static port mappings in the original version.
 
-* Original Description from /u/Critters/
+# Original Description from /u/Critters/
 An Arduino library I created for the incredibly cheap MP3 Voice Module. It gives you simple commands to play and stop numbered MP3 or WAV files. You can also adjust the volume and query if a file is still playing.
 
 You can find several of these modules on eBay by searching for "MP3 FLASH 16P", they should be around $4.99. 
