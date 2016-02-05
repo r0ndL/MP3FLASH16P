@@ -1,8 +1,12 @@
-# MP3FLASH16P
+# MP3Flash16Pv2
+
+MP3Flash16Pv2 is a library created for the MP3-FLASH-16P module.  This v2 is a fork of /u/Critters original library
+  was created to remove the static port mappings in the original version.
+
+* Original Description from /u/Critters/
 An Arduino library I created for the incredibly cheap MP3 Voice Module. It gives you simple commands to play and stop numbered MP3 or WAV files. You can also adjust the volume and query if a file is still playing.
 
-You can find several of these modules on eBay by searching for "MP3 FLASH 16P", they should be around $4.99. I purchased this one:
-http://www.ebay.com/itm/BY8301-16P-SSOP2-MP3-Aduio-Serial-Voice-SPI-FLASH-Module-3W-Amplifier-Micro-USB-/271684522808?hash=item3f41a8d338:g:KXMAAOSw7ThUdS08
+You can find several of these modules on eBay by searching for "MP3 FLASH 16P", they should be around $4.99. 
 
 # Background
 This is my first Aruino library, you've been warned :)
@@ -10,7 +14,7 @@ This is my first Aruino library, you've been warned :)
 I made it as I found very little information on using this module with Arduino, what code is included in the Chinese-only documentation is for a different controller and isn't very user friendly. My goal with this library is to give you stupid-simple commands to play named files so you can add some nice sounds to your project without breaking the bank on modules that are well documented but cost 4 to 5x as much.
 
 # Install
-Copy the MP3FLASH16P folder into your Arduino/libraries folder and restart the Arduino IDE if it's already running
+Copy the MP3Flash16Psi folder into your Arduino/libraries folder and restart the Arduino IDE if it's already running
 The library assumes RX/TX are on pins 10/11. To change this edit the .ccp file.
 
 # In the "Support Files" folder
@@ -19,7 +23,7 @@ The library assumes RX/TX are on pins 10/11. To change this edit the .ccp file.
 * The module comes with mp3 files pre-installed, I suspect they are counting from 1 to 10 in Chinese but don't know for sure. I've included replacement files that count from 1 to 10 in English to help with testing
 
 # Examples
-I've included two examples that show a super simple and more complex use cases, you should be able to find them under file/examples/MP3FLASH16P/ in your Arduino IDE
+I've included two examples that show a super simple and more complex use cases, you should be able to find them under file/examples/MP3Flash16Psi/ in your Arduino IDE
 
 # Commands
 * void init(int PIN_BUSY, int VOLUME [OPTIONAL]);
